@@ -36,7 +36,7 @@ namespace TP1
             double exp;
             int fact;
             resultadoExponente = 1;
-            for (int i = 1; i < LIMITE; ++i)
+            for (int i = 1; i <= LIMITE; ++i)
             {
                 exp = Math.Pow(exponente, i);
                 fact = ObtenerFactorial(i);
